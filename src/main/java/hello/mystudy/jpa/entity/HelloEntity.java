@@ -47,7 +47,7 @@ public class HelloEntity {
     순서를 데이터베이스에 저장한다.
      */
     private RoleType roleType;
-
+    
     @Temporal(TemporalType.TIMESTAMP)
     private Date createdDate;
 

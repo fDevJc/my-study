@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.mystudy.java.grammer.OptionalTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-09T12:54:21" hostname="yangjicheol-ui-MacBookAir.local" time="0.01">
+  <properties/>
+  <testcase name="OptionalIfPresent()" classname="hello.mystudy.java.grammer.OptionalTest" time="0.01"/>
+  <system-out><![CDATA[optionalFoo = hello.mystudy.java.grammer.OptionalTest$Foo@1efe439d
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

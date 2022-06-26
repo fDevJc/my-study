@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.IntStream;
 
-public class Solution {
+public class Singo {
     public int[] solution(String[] id_list, String[] report, int k) {
         Repository repository = new Repository();
 

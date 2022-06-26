@@ -1,12 +1,13 @@
 package hello.mystudy.programmers.lv1;
 
 
+import hello.mystudy.programmers.lv1.Singo;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-class SolutionTest {
-    Solution test = new Solution();
+class SingoTest {
+    Singo test = new Singo();
     @Test
     void ex1() {
         String[] idList = {"muzi", "frodo","apeach","neo"};
