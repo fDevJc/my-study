@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Map;
 
-class 스킬체크테스트lv1문제1_요일찾기 {
+class 스킬체크테스트lv1_요일찾기 {
     public String solution(int a, int b) {
         Map<Integer, String> dayOfTheWeek = new HashMap<>();
         dayOfTheWeek.put(1, "MON");
