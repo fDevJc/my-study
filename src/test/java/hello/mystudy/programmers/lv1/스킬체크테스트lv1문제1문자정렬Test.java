@@ -3,8 +3,8 @@ package hello.mystudy.programmers.lv1;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class 스킬체크테스트lv1문제1Test {
-    스킬체크테스트lv1문제1 test = new 스킬체크테스트lv1문제1();
+class 스킬체크테스트lv1문제1문자정렬Test {
+    스킬체크테스트lv1문제1_문자정렬 test = new 스킬체크테스트lv1문제1_문자정렬();
     @Test
     void ex1() {
         String result = test.solution("Zbcdefg");
