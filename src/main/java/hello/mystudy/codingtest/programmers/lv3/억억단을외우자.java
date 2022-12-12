@@ -9,9 +9,16 @@ public class 억억단을외우자 {
 		int maxDivisor = 0;
 		int maxNumber = 0;
 
+		for (int i = 1; i <= e; i++) {
+			for (int j = 1; j <= e; j++) {
+				if (i * j > e) {
+					break;
+				}
+				board[i*j][0]++;
+			}
+		}
 
 		for (int i = e; i >= 1; i--) {
-			board[i][0] = getDivisorCount(i);
 			if (board[i][0] >= maxDivisor) {
 				maxDivisor = board[i][0];
 				board[i][1] = i;
