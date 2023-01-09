@@ -11,6 +11,9 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 
+import org.hibernate.annotations.Fetch;
+import org.hibernate.annotations.FetchMode;
+
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -24,6 +27,7 @@ public class Team {
 
 	private String teamName;
 
+	// @Fetch(FetchMode.SUBSELECT)
 	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	@JoinColumn(name = "team_id")
 	private List<Player> players = new ArrayList<>();
