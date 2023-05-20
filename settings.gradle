@@ -1,1 +1,3 @@
 rootProject.name = 'my-study'
+include 'lotto-architecture'
+
